@@ -11,7 +11,7 @@ import Image from "next/image"
 import logo from "../public/rhino-2.webp"
 import HeaderItem from "./HeaderItem"
 
-function Header() {
+const Header = () => {
   return (
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center">
       <div className="flex flex-grow justify-evenly max-w-2xl h-auto">
