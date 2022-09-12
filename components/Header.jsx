@@ -25,6 +25,7 @@ function Header() {
       <Image
         className="object-contain rounded-sm"
         src={logo}
+        alt="logo"
         width={80}
         height={80}
       />
